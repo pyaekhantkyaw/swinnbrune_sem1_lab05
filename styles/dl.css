@@ -1,0 +1,25 @@
+/* styling definition list */
+dl {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+dt {
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5em;
+}
+
+dd {
+    margin-left: 1.5em;
+    color: #555;
+    margin-bottom: 0.5em;
+}
+
+/* Example of pseudo-element selector */
+dt::after {
+    content: ":";
+}
+

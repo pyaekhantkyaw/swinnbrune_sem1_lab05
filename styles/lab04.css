@@ -1,0 +1,66 @@
+
+ h1 {
+    color : purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+ }
+
+
+* {
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+}
+
+h2 {
+    color: rgb(0, 128, 128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+aside, footer {
+    font-style: italic;
+}
+
+h1,h2,h3 {
+    font-family:arial, sans-serif; 
+}
+
+table , th, td {
+    border: 1px solid black; 
+}
+
+#images {
+    text-align: center;
+}
+
+#headings-heading {
+    color: red;
+}
+
+.special{
+    color: darkorange;
+    font-weight: bold;
+}
+
+.month-heading {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
